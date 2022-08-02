@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  margin: 0;
+}
+
+.side-nav {
+  background-color: lightgray;
+  width: 25%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo_img {
+  border-radius: 50%;
+}
+
+.title h1 {
+  text-align: center;
+}
+.title span {
+  display: block;
+  text-align: center;
+}
+
+.content {
+  background-color: whitesmoke;
+  width: 75%;
+  height: 100vh;
+}
