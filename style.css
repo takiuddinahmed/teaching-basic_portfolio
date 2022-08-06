@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
 }
 .container {
   display: flex;
@@ -7,13 +9,14 @@ body {
 }
 
 .side-nav {
-  background-color: lightgray;
   width: 25%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
+    0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 
 .logo_img {
@@ -28,8 +31,30 @@ body {
   text-align: center;
 }
 
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu a {
+  color: black;
+  margin-bottom: 8px;
+  font-size: 18px;
+  background-color: MediumSeaGreen;
+  color: whitesmoke;
+  width: 200px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.menu a:hover {
+  background-color: orange;
+}
+
 .content {
-  background-color: whitesmoke;
   width: 75%;
   height: 100vh;
 }
